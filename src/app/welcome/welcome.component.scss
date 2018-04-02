@@ -1,0 +1,68 @@
+.welcomeArea{
+    margin: 0px;
+    padding: 0px 0 20px 0;
+}
+
+.welcomeInfo{
+    margin: 0px auto;
+    padding: 0px;
+    width: 1024px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    ul{
+        margin: 60px 0 0 0;
+        padding: 0px;
+        list-style: none;
+        overflow: hidden;
+        li{
+            margin: 0px;
+            padding: 0px;
+            width: 33%;
+            float: left;
+            .agileits-about-grid1 {
+                /* border: 1px solid #000; */
+                background: #00e6ff;
+                padding: 20px;
+            }
+            h4.agileinfo-head {
+                color: #ff9900;
+                text-transform: capitalize;
+                font-weight: 600;
+                font-size: 30px;
+                margin-top: 0px;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            .ab1 p {
+                color: #fff;
+                font-size: 15px;
+                line-height: 1.8em;
+                margin: 10px 0 0;
+            }
+            .ab1 h5 {
+                color: #000;
+                font-size: 1em;
+                text-transform: uppercase;
+                font-weight: 600;
+                margin: 1em 0 0.2em;
+            }
+
+            .agileits-about-grid2 {
+                /* border: 1px solid #000; */
+                border-left: none;
+                border-right: none;
+                background: #c13737;
+                padding: 20px;
+            }
+            .agileits-about-grid3 {
+                /* border: 1px solid #000; */
+                background: #9300ff;
+                padding: 20px;
+            }
+        }
+        li:nth-child(3n){
+            margin-right: 0px;
+        }
+    }
+    
+}

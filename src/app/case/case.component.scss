@@ -1,0 +1,75 @@
+.caseArea{
+    margin: 60px 0 0 0;
+    padding: 0px;
+}
+
+.caseInfo{
+    margin: 0px auto;
+    padding: 0px;
+    width: 1024px;
+}
+
+.caseDetails {
+    margin: 40px 0 60px 0;
+    padding: 0px;
+    overflow: hidden;
+    ul{
+        margin: 10px 0 0 0;
+        padding: 0px;
+        list-style: none;
+        li{
+            text-align: center;
+            padding: 10px 10px;
+            padding-bottom: 30px;
+            background: #fff;
+            box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
+            -webkit-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
+            -moz-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
+            -o-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
+            width: 31%;
+            float: left;
+            margin-left: 2px;
+            margin-right: 2%;
+            margin-bottom: 30px;
+            img{
+                display: block;
+                max-width: 100%;
+                height: auto;
+            }
+            h5 {
+                font-size: 1.4em;
+                color: #ff9900;
+                margin: 1em 0;
+                letter-spacing: 2px;
+                font-weight: 600;
+            }
+            p {
+                color: #666;
+                letter-spacing: 1px;
+                font-size: 1em;
+                line-height: 1.9em;
+            }
+            a.read-agileits {
+                display: inline-block;
+                text-decoration: none;
+                margin-top: 1em;
+                letter-spacing: 2px;
+                font-weight: 600;
+                font-size: 15px;
+                color: #000;
+                background: #ff9900;
+                padding: 10px 20px;
+                border-radius: 20px;
+                transition: all 0.2s ease-in-out;
+                display: inline-block;
+                &:hover{
+                    color: #fff;
+                    border-radius: 0px;
+                }
+            }
+        }
+        li:nth-child(3n){
+            margin-right: 0px;
+        }
+    }
+}

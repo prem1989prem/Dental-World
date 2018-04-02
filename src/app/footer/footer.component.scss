@@ -1,0 +1,166 @@
+.footer{
+    margin: 0px 0px;
+    padding: 40px 0 30px 0px;
+    background: #141415;
+    .footerArea {
+        margin: 0px auto;
+        padding: 0px;
+        width: 1024px;
+        overflow: hidden;
+        ul{
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            color: #fff;
+            li{
+                margin: 0px 2% 0 0;
+                padding: 0px;
+                float: left;
+                width: 23%;
+                h3{
+                    font-size: 1.4em;
+                    color: #ff9900;
+                    position: relative;
+                    margin-bottom: 1.5em;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                }
+                .abText p{
+                    color: #5f5f63;
+                    line-height: 25px;
+                    font-size: 15px;
+                }
+                ul.footLatest {
+                    margin:0px;
+                    padding: 0px;
+                    li{
+                        display: block;
+                        margin-bottom: 8px;
+                        float: none;
+                        width: auto;
+                        transition: all 02s ease-in-out;
+                        i{
+                            color: #ff9900;
+                            padding-right: 10px;
+                        }
+                        a{
+                            color: #5f5f63;
+                            text-decoration: none;
+                            line-height: 22px;
+                            letter-spacing: 1px;
+                            font-size: 14px;
+                            &:hover{
+                                color: #fff;
+                            }
+                        }
+                        &:hover i{
+                            color: #fff;
+                        }  
+                    }
+                }
+                ul.address{
+                    margin: 0px;
+                    padding: 0px;
+                    list-style: none;
+                    li{
+                        margin: 0px;
+                        padding: 0px 0 18px 0;
+                        width: auto;
+                        float: none;
+                        font-size: 15px;
+                        overflow: hidden;
+                        color: #5f5f63;
+                        a{
+                            color: #5f5f63;
+                            padding-top: 8px;
+                            display: block;
+                            &:hover{
+                                color: #fff;
+                            }
+                        }
+                        i{
+                            margin-right: 6px;
+                            color: #ff9900;
+                            width: 32px;
+                            height: 32px;
+                            text-align: center;
+                            line-height: 30px;
+                            border: 1px solid #4b4b50;
+                            float: left;
+                        }
+                        span{
+                            display: block;
+                            margin-left: 15px;
+                            letter-spacing: 1px;
+                            font-size: 15px;
+                            width: 75%;
+                            float: left;
+                        }
+                    }
+                }
+
+                
+            }
+            li.newsLetter{
+                p{
+                    color: #fff;
+                    font-size: 20px;
+                    padding-bottom: 10px;
+                }
+                p.textLetter {
+                    font-size: 15px;
+                    line-height: 20px;
+                    padding-bottom: 20px;
+                    display: block;
+                    color: #5f5f63
+                }
+
+                input[type="email"] {
+                    outline: none;
+                    padding: 13px;
+                    background: #fff;
+                    font-size: 0.9em;
+                    color: #888;
+                    width: 65%;
+                    border: none;
+                    letter-spacing: 1px;
+                    float: left;
+                }
+                input[type="submit"] {
+                    outline: none;
+                    padding: 12px 0;
+                    background: #168eea;
+                    font-size: 1em;
+                    color: #fff;
+                    border: none;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    width: 35%;
+                    float: left;
+                    margin-top: 0;
+                    transition: all 0.2s ease-in-out;
+                    cursor: pointer;
+                }
+                input[type="submit"]:hover {
+                    background: #ff9900;
+                }
+            }
+        }
+    }
+}
+.copyWrite{
+    margin: 0px;
+    padding: 30px 0px;
+    background: #0f0f10;
+    text-align: center;
+    p{
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+    a{
+        color: #ff9900;
+    }
+    }
+}

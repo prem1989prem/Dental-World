@@ -1,0 +1,118 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    color: #000;
+}
+img{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+img a {
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: disc;
+}
+ul li{
+    margin: 0px;
+    padding: 0px;
+}
+ol{
+    margin: 0px;
+    padding: 0px;
+    list-style: decimal;
+}
+ol li{
+    margin: 0px;
+    padding: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+    font-weight: normal;
+}
+*{
+    outline: none;
+    box-sizing: border-box;
+}
+a{
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+    text-decoration: none;
+   
+}
+a:hover{
+    text-decoration: none;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+.clear{
+    clear: both;
+}
+.fLeft{
+    float: left;
+}
+.fRight{
+    float: right;
+}
+
+.bannerArea {
+    margin: 0px 0 70px 0;
+    padding: 0px;
+}
+
+.bannerArea img {
+    width: 100%;
+}
+
+.pageArea {
+    margin: 0px 0 0 0;
+    padding: 0px;
+}
+
+.titleArea {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+}
+.titleArea h2 {
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-size: 40px;
+    text-align: center;
+    color: #ff9900;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 0;
+    margin: 0px;
+    padding: 0px 0 10px 0;
+}
+
+.titleArea p{
+    font-size: 17px;
+    margin: 0px 0 10px 0;
+    padding: 0px;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 500;
+}
+
+.titleArea .titleBord {background: #212121;
+    height: 2px;
+    width: 70px;
+    display: inline-block;
+    
+   }

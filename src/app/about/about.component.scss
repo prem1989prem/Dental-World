@@ -1,0 +1,204 @@
+.aboutArea{
+    margin: 0px;
+    padding: 0px;
+}
+.aboutInfo {
+    margin: 0px auto;
+    padding: 0px;
+    width: 1024px;
+}
+
+.aboutDo {
+    margin: 0px auto;
+    padding: 0px;
+    width: 1024px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    overflow: hidden;
+    .aboutPic {
+        margin: 0px;
+        padding: 0px;
+        float: left;
+        width: 45%;
+        img{
+            width: 100%;
+        }
+    }
+    .aboutIntro{
+        margin: 0px;
+        padding: 0px;
+        float: right;
+        width: 50%;
+        border: 1px solid #ddd;
+        margin-bottom: 32px;
+        h2{
+            background: #146eb4;
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            padding: 12px 35px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        p{
+            margin: 0px;
+            padding: 0px 20px 20px 20px;
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+}
+
+.aboutSpecial {
+    margin: 0px auto;
+    padding: 0px;
+    width: 1024px;
+    ul{
+        margin: 40px 0 70px 0;
+        padding: 0px;
+        list-style: none;
+        overflow: hidden;
+        li{
+            margin: 0px 3% 0 0;
+            padding: 0px;
+            float: left;
+            width: 22%;
+            .teamInfo{
+                margin: 0px 0 0 2px;
+                padding: 0px;
+                overflow: hidden;
+                border-top: transparent;
+                -webkit-box-shadow: 0px 2px 14px -5px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 2px 14px -5px rgba(0,0,0,0.75);
+                box-shadow: 0px 2px 14px -5px rgba(0,0,0,0.75);
+
+                img{
+                    width: 100%;
+                    padding:3px 3px 0 3px;
+                }
+            }
+
+            .teamDetails{
+                border: 1px solid #e8e8e8;
+                padding:3px 0 0 15px;
+                border-top: transparent;
+                -webkit-box-shadow: 0px 2px 14px -5px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 2px 14px -5px rgba(0,0,0,0.75);
+                box-shadow: 0px 2px 14px -5px rgba(0,0,0,0.75);
+                margin-bottom: 5px;
+                margin-left: 2px;
+                padding-bottom: 10px;
+                h3 {
+                    color: #000;
+                    text-transform: uppercase;
+                    margin: 1em 0;
+                    font-size: 21px;
+                }
+                .team-social {
+                    -webkit-transition: all 0.5s;
+                    -moz-transition: all 0.5s;
+                    transition: all 0.5s;
+                    -o-transition: all 0.5s;
+                    -ms-transition: all 0.5s;
+                    margin-bottom: 1em;
+                    i.fa.fa-facebook {
+                        color: #3b5998;
+                        border: 1px solid #3b5998;
+                    }
+                    i.fa.fa-facebook:hover {
+                        color: #fff;
+                        background: #3b5998;
+                        border: 1px solid #3b5998;
+                        -webkit-transition: all 1s;
+                        -moz-transition: all 1s;
+                        transition: 1s all;
+                        -o-transition: all 1s;
+                        -ms-transition: all 1s;
+                    }
+                    i.fa.fa-twitter {
+                        color: #1da1f2;
+                        border: 1px solid #1da1f2;
+                    }
+                    i.fa.fa-twitter:hover {
+                        color: #fff;
+                        background: #1da1f2;
+                        border: 1px solid #1da1f2;
+                        -webkit-transition: all 1s;
+                        -moz-transition: all 1s;
+                        transition: 1s all;
+                        -o-transition: all 1s;
+                        -ms-transition: all 1s;
+                    }
+                    i.fa.fa-linkedin {
+                        color: #e68523;
+                        border: 1px solid #e68523;
+                    }
+                    i.fa.fa-linkedin:hover {
+                        color: #fff;
+                        background: #e68523;
+                        border: 1px solid #e68523;
+                        -webkit-transition: all 1s;
+                        -moz-transition: all 1s;
+                        transition: 1s all;
+                        -o-transition: all 1s;
+                        -ms-transition: all 1s;
+                    }
+                    i.fa.fa-pinterest-p {
+                        color: #bd081c;
+                        border: 1px solid #bd081c;
+                    }
+                    i.fa.fa-pinterest-p:hover {
+                        color: #fff;
+                        background: #bd081c;
+                        border: 1px solid #bd081c;
+                        -webkit-transition: all 1s;
+                        -moz-transition: all 1s;
+                        transition: 1s all;
+                        -o-transition: all 1s;
+                        -ms-transition: all 1s;
+                    }
+                    .teamgrid1 i.fa {
+                        color: #ff4c4c;
+                        font-size: 1em;
+                        padding-right: .5em;
+                    }
+                    a i {
+                        color: #000;
+                        font-size: 16px;
+                        padding: 10px;
+                        width: 35px;
+                        height: 35px;
+                        line-height: 15px;
+                        margin-right: 10px;
+                        text-align: center;
+                        border-radius: 50%;
+                        -webkit-border-radius: 50%;
+                        -o-border-radius: 50%;
+                        -moz-border-radius: 50%;
+                        -ms-border-radius: 50%;
+                    }
+                }
+            }
+
+            p {
+                color: #4a4a4a;
+                font-size: 15px;
+                margin: .8em 0;
+                letter-spacing: 1px;
+                a{
+                    color: red;
+                }
+            }
+            i.fa {
+                color: #ff4c4c;
+                font-size: 1em;
+                padding-right: .5em;
+            }
+        }
+        li:nth-child(4n){
+            margin-right: 0px;
+        }
+    }
+
+
+}

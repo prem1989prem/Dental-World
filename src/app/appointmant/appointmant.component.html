@@ -1,0 +1,74 @@
+<div class="bannerArea">
+  <img src="../assets/images/about-banner.jpg">
+</div>
+
+<!-- appointmant -->
+<div class="appointmantArea">
+  <div class="appointmantInfo">
+    <div class="titleArea">
+      <h2>APPOINT MY DOCTOR  and  Data will show in console </h2>
+      <p>We Offer Extensive Medical Procedures To Outbound And Inbound Patients.</p>
+      <span class="titleBord"></span>
+    </div>
+
+    <div class="appointForm">
+      <div class="heading">
+        <h2>Please Enter Some Details  and  Data will show in console</h2>
+        <p>Fill the form below and submit your query we will contact you as soon as possible.</p>
+      </div>
+
+      <form #contactFrom="ngForm" (ngSubmit)="addContact(contactFrom.value)">
+        <ul>
+          <li>
+            <label>enter your Full Name</label>
+            <input type="text" [(ngModel)]="contact.full_name" name="full_name" #full_name="ngModel" required />
+            <div *ngIf="full_name.errors && full_name.touched" class="error">
+              <span [hidden]="!full_name.errors.required">
+                Full Name is required.
+              </span>
+            </div>
+          </li>
+          <li>
+            <label>enter your email id</label>
+            <input type="email" [(ngModel)]="contact.email" name="email" #email="ngModel" required email/>
+
+            <div *ngIf="email.errors && (email.dirty || email.touched)" class="error">
+              <span [hidden]="!email.errors.required">
+                Email is required.
+              </span>
+            </div>
+
+          </li>
+          <li>
+            <label>enter your mobile number</label>
+            <input type="number" [(ngModel)]="contact.mobile" name="mobile" #mobile="ngModel" required oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');"
+              onKeyDown="if(this.value.length==10 && event.keyCode!=8) return false;" />
+
+            <div *ngIf="mobile.errors && mobile.touched" class="error">
+              <span [hidden]="!mobile.errors.required">
+                Mobile Number is required.
+              </span>
+            </div>
+
+
+          </li>
+          <li>
+            <label>enter your comment</label>
+            <textarea [(ngModel)]="contact.comment" name="comment" #comment="ngModel" required></textarea>
+            <div *ngIf="comment.errors && comment.touched" class="error">
+              <span [hidden]="!comment.errors.required">
+                Comment is required.
+              </span>
+            </div>
+          </li>
+          <li class="subBtn">
+            <button type="submit" name="save" value="save" [disabled]="!contactFrom.valid">Send</button>
+
+          </li>
+        </ul>
+      </form>
+
+    </div>
+  </div>
+</div>
+<!-- end appointmant -->

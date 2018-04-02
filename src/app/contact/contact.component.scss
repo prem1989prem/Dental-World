@@ -1,0 +1,119 @@
+.contactPage {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contactArea {
+    margin: 0px auto;
+    padding: 0px;
+    width: 1024px;
+}
+
+.contactForm {
+    margin: 60px 0 0 0;
+    padding: 0px 0 60px 0;
+    overflow: hidden;
+    ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        width: 45%;
+        float: left;
+        margin-right: 4%;
+        li{
+            margin: 0px 0 22px 0;
+            padding: 0px;
+            .error {
+                font-size: 11px;
+                color: red;
+                padding-top: 5px;
+            }
+            label{
+                display: block;
+                font-size: 15px;
+                color: #555;
+                padding-bottom: 8px;
+                font-weight: 600;
+                margin:0px;
+                letter-spacing: 1px;
+            }
+            input{
+                padding: 16px 15px;
+                display: block;
+                width: 100%;
+                background: none;
+                border: none;
+                outline: none;
+                color: #464646;
+                font-size: 15px;
+                box-shadow: inset 0px 0px 3px #999;
+                -webkit-box-shadow: inset 0px 0px 3px #999;
+                -moz-box-shadow: inset 0px 0px 3px #999;
+                -o-box-shadow: inset 0px 0px 3px #999;
+                -webkit-appearance: none;
+                font-family: 'Source Sans Pro', sans-
+            }
+             textarea {
+                padding: 16px 15px;
+                display: block;
+                width: 100%;
+                background: none;
+                border: none;
+                outline: none;
+                color: #464646;
+                font-size: 15px;
+                box-shadow: inset 0px 0px 3px #999;
+                -webkit-box-shadow: inset 0px 0px 3px #999;
+                -moz-box-shadow: inset 0px 0px 3px #999;
+                -o-box-shadow: inset 0px 0px 3px #999;
+                -webkit-appearance: none;
+                font-family: 'Source Sans Pro', sans-serif;
+                resize: none;
+                height: 187px;
+            }
+
+            button{ 
+               
+                font-family: Montserrat, sans-serif;
+                padding: 18px 30px;
+                margin: 0px;
+                text-decoration: none;
+                line-height: 1;
+                display: inline-block;
+                cursor: pointer;
+                text-align: center;
+                vertical-align: top;
+                white-space: normal;
+                font-size: 15px;
+                font-weight: 900;
+                border-radius: 30px;
+                border: 0px;
+                text-transform: uppercase;
+                transition: all 0.2s ease-in-out;
+                background: #cdcdcd;
+                &:hover{
+                    background: #cdcdcd;
+                    border-radius: 0px;
+                }
+            }
+
+        }
+    }
+}
+
+.contactMap {
+    margin: 0px;
+    padding: 0px;
+    background: #ececee;
+    .mapArea {
+        margin: 0px auto;
+        padding:30px;
+        width: 100%;
+        iframe{
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 300px;
+        }
+    }
+}
